@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED8FA294-8664-AB7D-23F7-2A8F0E8E3CF9" name="TBL_JEFES_CARRERAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:19:00 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_JEFE" id="2C2DE37A-DBC4-1FC4-C9B8-9B18D7B64707">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:20:49 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="577F9C89-FDC4-1F82-BF00-974DAED22FBF" referredColumn="494310EC-50E4-E999-7DCC-1BC20C51BC06"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_SUBORDINADOS" id="6DD017D3-C395-A9A1-618E-5EBDFCAFB6A6">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:20:03 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTRO_CAMPO" id="7B33AB44-9FE0-DE6A-EAC0-F7836B01A5FA">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:20:03 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTRO_CAMPO_2" id="E90ACE64-C63A-49B7-A482-84BC82E69D35">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:20:03 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7984B471-B37E-6ED8-DDAC-8AFB96C73709" name="TBL_JEFES_CARRERAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:22:02 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C2DE37A-DBC4-1FC4-C9B8-9B18D7B64707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAEDAE7A-CF84-917A-C575-CC06B1EB1BC5" name="TBL_JEFES_CARRERAS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:20:49 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C2DE37A-DBC4-1FC4-C9B8-9B18D7B64707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

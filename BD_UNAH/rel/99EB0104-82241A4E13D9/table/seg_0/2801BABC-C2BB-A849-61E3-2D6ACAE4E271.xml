@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2801BABC-C2BB-A849-61E3-2D6ACAE4E271" name="TBL_TIPOS_LUGARES">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:26:46 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LUGAR" id="438117FA-F4B7-4AE4-C225-ADA57389734C">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:27:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_LUGAR" id="28D5C550-E426-1F52-94E6-75ED485F8C92">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:27:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="648DA065-2FDB-C28B-8541-8F9CC0968F16">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:27:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="69E7B8DB-7F1F-B151-E86C-D94B7631C940">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:27:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E5AA769-B0E4-CE83-02D8-FC842A6CFE46" name="TBL_TIPOS_LUGARES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:27:21 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="438117FA-F4B7-4AE4-C225-ADA57389734C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

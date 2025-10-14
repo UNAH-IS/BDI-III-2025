@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1177594-BD4E-0CA6-13F8-0D3DD277E797" name="TBL_TIPOS_EMPLEADOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:38:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_EMPLEADO" id="343DD903-B01E-CCEC-F05E-E95E1A200F65">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:39:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_EMPLEADO" id="1277171B-8C90-9405-B5BA-5FC6B9E461EE">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:39:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD29A4E8-F477-0ED4-5D91-24187A40B415" name="TBL_TIPOS_EMPLEADOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:39:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="343DD903-B01E-CCEC-F05E-E95E1A200F65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F77C48A1-59D5-BD91-B730-FE08795A7DD7" name="TBL_TIPO_PAGO">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:26:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_PAGO" id="47822354-5640-8CA1-B825-E2544693A50B">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:26:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PAGO" id="45E64747-5EE6-D9A1-6133-F1ED2CFFFEEC">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:26:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE1AF35C-9CF9-E0CD-0F34-1EB65A1C6B50" name="TBL_TIPO_PAGO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:26:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47822354-5640-8CA1-B825-E2544693A50B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

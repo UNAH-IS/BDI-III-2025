@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68BFE8E9-2D87-75E5-A1F5-68FB1C12093A" containerWithKeyObject="07033536-31A7-4185-6C10-6EBBA548B953" localFKIndex="09DF8659-69C4-E957-2DEF-A82E6E38A7B6" name="TBL_MAESTROS_TBL_CARRERAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:52:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_CARRERAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DEB9FC6E-234A-6538-2E8D-E861917F7D32</referredTableID>
+<keyObject>6AD277D6-D167-EEAD-9EEE-F28CBB5FBF3B</keyObject>
+<referredKeyID>6AD277D6-D167-EEAD-9EEE-F28CBB5FBF3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_CARRERA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

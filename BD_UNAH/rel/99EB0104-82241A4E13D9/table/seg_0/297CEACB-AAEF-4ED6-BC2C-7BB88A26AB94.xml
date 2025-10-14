@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="297CEACB-AAEF-4ED6-BC2C-7BB88A26AB94" name="TBL_PERIODOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:51:27 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERIODO" id="DD7CFC93-0F81-BFCB-8633-A94C447D0963">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:52:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PERIODO" id="14F84164-9CBD-4309-D6BE-0942E51B05D3">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:52:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="DDAB4406-DB4A-9961-61B5-355DE1809EAF">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:52:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="55BCA2A6-03EF-5A2F-95E6-4196FCBB54FE">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:52:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_FERIADOS" id="EA8736B3-7024-2943-4429-B8C425CB31EC">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:52:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56D98AEF-F195-F3CB-F06D-6D3FEB04C2CC" name="TBL_PERIODOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-08 00:52:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD7CFC93-0F81-BFCB-8633-A94C447D0963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="411C4E24-96DE-3CEA-7AC0-CCB3B51D6BB0" containerWithKeyObject="DEB9FC6E-234A-6538-2E8D-E861917F7D32" localFKIndex="B4D73F2C-DEFE-49A2-2224-C6B54BB995A8" name="TBL_CARRERAS_TBL_FACULTADES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:43:09 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_FACULTADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29D2E22D-A287-AA05-8647-700F41CF2545</referredTableID>
+<keyObject>E91331AF-4753-CF4A-9EB3-8676B59EA909</keyObject>
+<referredKeyID>E91331AF-4753-CF4A-9EB3-8676B59EA909</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_FACULTAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

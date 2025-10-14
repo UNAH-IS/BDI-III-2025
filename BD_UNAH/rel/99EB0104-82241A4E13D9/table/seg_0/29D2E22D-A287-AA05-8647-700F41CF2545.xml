@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29D2E22D-A287-AA05-8647-700F41CF2545" name="TBL_FACULTADES">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:42:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FACULTAD" id="35616DBF-53CA-5EF6-45EE-1EF693220112">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:42:53 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_FACULTAD" id="AC5E1521-2A20-F0C5-8699-3B45486CF58D">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:42:53 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DECANO" id="05F10827-E92E-BB65-1E86-3B6EE2ECA52F">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:43:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25063D8F-40DE-E5C1-827A-AEB5FCE8433F" referredColumn="494310EC-50E4-E999-7DCC-1BC20C51BC06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E91331AF-4753-CF4A-9EB3-8676B59EA909" name="TBL_FACULTADES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:42:53 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35616DBF-53CA-5EF6-45EE-1EF693220112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D3E6D68-D97E-9376-2D59-831E7DF47510" name="TBL_FACULTADES_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:43:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05F10827-E92E-BB65-1E86-3B6EE2ECA52F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

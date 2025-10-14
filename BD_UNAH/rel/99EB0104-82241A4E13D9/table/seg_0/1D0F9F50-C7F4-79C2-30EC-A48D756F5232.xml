@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D0F9F50-C7F4-79C2-30EC-A48D756F5232" name="TBL_MATRICULA">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:10:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MATRICULA" id="52F79936-A551-09F1-3219-A40E7E6DCFEC">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:11:40 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_MATRICULA" id="E1995DC9-438C-BA09-E275-4C9A9CEFE156">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:11:40 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_SECCION" id="F3EFE0AF-9CA6-7513-0865-5C582E9F2C67">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:12:29 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B400336-1143-1DFE-A581-57DA23ADA38F" referredColumn="80209B1E-36C0-6237-8306-8FD6B24FBBB5"/>
+</associations>
+</Column>
+<Column name="CUENTA" id="F9B51600-0C90-FC02-B5E9-AEB37E37FDD2">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:12:53 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1349ACA6-2401-5EE4-8F53-BD8132B66C1F" referredColumn="798464D5-E90F-9200-82BE-FC8D79E412A7"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_MATRICULA" id="6E1E7296-4B3A-167D-2D8E-2501158A6998">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:15:29 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E2CF67E-1851-B4A3-5463-9C2D56659728" referredColumn="38BDD605-4444-C37C-176F-EA5529F657C9"/>
+</associations>
+</Column>
+<Column name="NUMERO_CUPO" id="783B67CF-B8AD-62C7-A7C6-4D5D9A3A91A6">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:15:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B981E77B-4C2E-65C1-BFC3-805957EE6421" name="TBL_MATRICULA_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:11:40 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52F79936-A551-09F1-3219-A40E7E6DCFEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7EFB321-ADCF-EE82-5F92-F1C40C457CCC" name="TBL_MATRICULA_TBL_SECCIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:12:29 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3EFE0AF-9CA6-7513-0865-5C582E9F2C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35DBE464-A798-C427-1760-B00D3B81893D" name="TBL_MATRICULA_TBL_ALUMNOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:12:53 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9B51600-0C90-FC02-B5E9-AEB37E37FDD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36F49F24-191F-4673-2F59-2DB9A280DE90" name="TBL_MATRICULA_TBL_ESTADOS_MATRICULA_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-09 00:15:29 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E1E7296-4B3A-167D-2D8E-2501158A6998"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

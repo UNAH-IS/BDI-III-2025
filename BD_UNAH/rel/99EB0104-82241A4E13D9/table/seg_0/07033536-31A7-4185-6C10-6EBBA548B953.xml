@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07033536-31A7-4185-6C10-6EBBA548B953" name="TBL_MAESTROS">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:50:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MAESTRO" id="5B5CFFED-AD25-D9F6-BEE4-624F2D91925B">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:54:01 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D416E71C-E1C0-55FA-0D18-DB0D6B2E07E9" referredColumn="494310EC-50E4-E999-7DCC-1BC20C51BC06"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="A40AF907-F5D3-220D-64E3-9DF1B4333C08">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:52:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68BFE8E9-2D87-75E5-A1F5-68FB1C12093A" referredColumn="B2CA1483-86E9-1815-7FEB-4A78AFBECC63"/>
+</associations>
+</Column>
+<Column name="CODIGO_CATEGORIA_MAESTRO" id="0F279A52-40FD-3FEB-1982-E2B23426A1EB">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:52:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4872988A-6BC9-6F49-2FC2-74FE1FF15F5B" referredColumn="C7D23CC6-D915-1FBD-A42B-44562B037717"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99CE4811-74D2-59B0-B18C-2ED345253A6A" name="TBL_MAESTROS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:54:44 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5CFFED-AD25-D9F6-BEE4-624F2D91925B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09DF8659-69C4-E957-2DEF-A82E6E38A7B6" name="TBL_MAESTROS_TBL_CARRERAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:52:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A40AF907-F5D3-220D-64E3-9DF1B4333C08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EDA101D-2557-5E59-D40F-C0D60C341CC7" name="TBL_MAESTROS_TBL_CATEGORIAS_MAESTROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:52:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F279A52-40FD-3FEB-1982-E2B23426A1EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44913A3F-0E53-DAB5-AAA6-A8E9B6FD2BF5" name="TBL_MAESTROS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:54:01 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5CFFED-AD25-D9F6-BEE4-624F2D91925B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

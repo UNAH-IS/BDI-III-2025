@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01AE9D17-C85D-9898-F2BE-0C6526CC6F4C" name="TBL_LUGARES">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:25:44 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="6D50DB4F-D36E-3058-3C22-F6B00E84EECB">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:26:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="9E23D6BA-E4B5-6C5F-7535-095A68F0C229">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:26:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="6C8C06DF-4AE3-6222-3E30-294DC851AB85">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:26:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="FFA3E070-2E3C-D598-46A0-2FB887A03EE0">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:26:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTITUD" id="E6741D8A-5729-BD86-1960-AEE50AA10921">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:26:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HABITANTES" id="9CF3366C-FDD2-478F-EC7B-7DD094A14462">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:26:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="9898057B-C5E8-6036-D42B-D84FABCBA0E0">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:27:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAF966AB-EEFA-3F15-C25A-AA448C91AF98" referredColumn="438117FA-F4B7-4AE4-C225-ADA57389734C"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="E8F624B1-5EFF-220E-C520-C0A4798A7BCA">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:28:28 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E42F312-6E67-91D0-8BA1-F4F868430767" referredColumn="6D50DB4F-D36E-3058-3C22-F6B00E84EECB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FB2C850-883D-A0F4-6F2F-34916F19E495" name="TBL_LUGARES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:26:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D50DB4F-D36E-3058-3C22-F6B00E84EECB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="048E1F45-A82D-213A-D914-4FBC9C2C3188" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:27:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9898057B-C5E8-6036-D42B-D84FABCBA0E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="989CDAFD-4733-8253-F60E-F3B18E524CE4" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-07 00:28:28 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8F624B1-5EFF-220E-C520-C0A4798A7BCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
