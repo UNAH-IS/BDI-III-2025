@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ABB224F-2BDE-6C69-C509-0F492AB59A65" name="TBL_CERTIFICACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:43:57 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CERTIFICADO" id="03245714-2411-400D-7A5C-17A2B4F61A27">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:45:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="361C7724-7578-373A-4A7C-257FFFA09ADB" referredColumn="D7E77AD7-7B2A-89EC-5182-0508D2B8F814"/>
+</associations>
+</Column>
+<Column name="DOCUMENT_CERTIFICADO" id="7F070F42-818D-5220-A1A8-9C94B2D22684">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:45:21 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTUACION" id="5CCDFD9A-E991-0A66-C399-BE7FE9971DE6">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:45:21 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMISOR_RECONOCIMIENTO" id="2755B74E-8D12-949C-394B-B00EA6EFFC0C">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:45:21 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="375D47B7-8D79-7FC3-3FDD-108D3538DCA1" name="TBL_CERTIFICACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:45:45 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03245714-2411-400D-7A5C-17A2B4F61A27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1619C7A-806B-AA94-7835-08EFA3E21072" name="TBL_CERTIFICACIONES_TBL_LOGROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:45:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03245714-2411-400D-7A5C-17A2B4F61A27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

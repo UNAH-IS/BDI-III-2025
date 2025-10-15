@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CE97A1F-DBDB-3B36-D5BD-5889920787EE" name="TBL_LUGARES">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:58 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="7AC3A6D8-F830-B256-DE0E-5A7DCA70F675">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:03 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="9B8C265A-49AF-1B83-2F0A-21AA3F0420DB">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:03 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="6BB37C78-1FBE-EC07-BAF8-B8B491E73135">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:03 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="A268A8C6-D218-0039-3E43-6F2CC473A7A2">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:03 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="6FCD7E9C-0E5B-3784-AE2E-B03DC5CFE44A">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:39 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57B13DC0-F880-A4C4-CC5D-58CE5572751C" referredColumn="FF4D48D5-AA8B-F520-A11E-DBB4032347E6"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="C0DBAC6A-6BD9-C59E-BD81-EEA153C9B68D">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:50 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ECF03E4-16ED-3600-747A-00CB4A0BD64F" referredColumn="7AC3A6D8-F830-B256-DE0E-5A7DCA70F675"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD08A434-6C7C-F7C8-A294-D5B4C52A94BC" name="TBL_LUGARES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:03 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AC3A6D8-F830-B256-DE0E-5A7DCA70F675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85389461-10C2-7768-511A-04FBCABB39D7" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:39 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FCD7E9C-0E5B-3784-AE2E-B03DC5CFE44A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F79D19DD-48ED-A24B-E61A-0F9DA541AA53" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:16:50 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0DBAC6A-6BD9-C59E-BD81-EEA153C9B68D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

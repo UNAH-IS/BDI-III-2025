@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0D90F10-1BAB-5204-5E62-60D88DF95164" name="TBL_USUARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:12:55 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="1D134055-1770-9DA5-8218-6E7B13B7CF2D">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="D7D2786B-5790-FF74-2A06-D39B97C9B804">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="A4153802-8A70-D839-B118-260768EF0426">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="01D13AAA-687A-0707-3F4B-394103B82975">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NICKNAME" id="FE457A0D-62F6-9429-5C90-B82205BD525D">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="F46C4865-8EB9-FCF5-7C5D-50CC027E2B34">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="1EF8E25C-DBB6-3EE3-EA7C-97A5954AA4D7">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="116522C3-9143-56B0-150F-729F7D3515E3">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="EFFA7809-8A9A-603E-35AB-2A76989DA4DA">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="4AD5A3CE-CA41-726B-7C72-C558A5D59D3A">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:17:24 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A1F4D20-08AE-178A-DFE7-4841EABCFC7D" referredColumn="7AC3A6D8-F830-B256-DE0E-5A7DCA70F675"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="24F3BB08-3664-0BD9-63DA-3D71BAEF6B06">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:17:30 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F28D1008-0F32-B80F-F265-DD486F3A5A1D" referredColumn="7AC3A6D8-F830-B256-DE0E-5A7DCA70F675"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION_PERFIL" id="A0323D49-F5DC-C2C5-8838-01E7250142A9">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:18:16 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3CCB746-1FCB-CE03-1B78-EBD1866D0C65" name="TBL_USUARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:14:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D134055-1770-9DA5-8218-6E7B13B7CF2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F222CC6D-42C5-EA3A-8211-C17F7CE6941C" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:17:24 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AD5A3CE-CA41-726B-7C72-C558A5D59D3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D76A36AD-F3E2-1EFA-8ADF-A5A449D9F5F8" name="TBL_USUARIOS_TBL_LUGARES_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:17:30 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24F3BB08-3664-0BD9-63DA-3D71BAEF6B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

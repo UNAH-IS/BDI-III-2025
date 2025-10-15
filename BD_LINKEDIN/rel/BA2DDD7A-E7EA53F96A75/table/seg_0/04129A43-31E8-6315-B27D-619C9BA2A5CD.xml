@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04129A43-31E8-6315-B27D-619C9BA2A5CD" name="TBL_TITULOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:28:57 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TITULO" id="659F2D10-7497-1C74-FCD3-7A6A8F5FA776">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:39:33 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32790927-5ABB-ED06-4992-8E57590A3CD2" referredColumn="D7E77AD7-7B2A-89EC-5182-0508D2B8F814"/>
+</associations>
+</Column>
+<Column name="CODIGO_INSTITUCION_EDUCATIVA" id="8EA03DAC-8995-B8CD-7209-ADE7AFEF5B41">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:40:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDF07C66-A133-D7F2-138C-8008BAE0F299" referredColumn="2E83AA30-B24A-5B0F-C711-1A68BC0ADE93"/>
+</associations>
+</Column>
+<Column name="CODIGO_GRADO_TITULO" id="35238211-FCD9-635C-E27D-EF28E76BB66B">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:40:50 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF7F7766-59A9-7018-802A-434CC7AF6D51" referredColumn="EE45D80D-8E06-72EB-4F5B-D08F425EDB7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98264E88-B5BD-B026-A7B5-3F8A9318D995" name="TBL_TITULOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:40:00 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="659F2D10-7497-1C74-FCD3-7A6A8F5FA776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="941CB688-8675-611B-6C68-51B045F24964" name="TBL_TITULOS_TBL_LOGROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:39:33 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="659F2D10-7497-1C74-FCD3-7A6A8F5FA776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D75A8028-C28F-FE71-4EEC-D2F1904B05A5" name="TBL_TITULOS_TBL_INSTITUCIONES_EDUCATIVAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:40:35 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EA03DAC-8995-B8CD-7209-ADE7AFEF5B41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F34ADC64-772B-48D4-95E1-E9B00D54385C" name="TBL_TITULOS_TBL_GRADOS_TITULOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-15 00:40:50 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35238211-FCD9-635C-E27D-EF28E76BB66B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
