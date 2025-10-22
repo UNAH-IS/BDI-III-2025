@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74235830-EA5F-68EA-E044-FFCE97137900" containerWithKeyObject="FE2332BF-4776-9CC5-6EE0-D01241331F61" localFKIndex="9C6D69A4-8E18-F73E-0409-7D50885B35C0" name="TBL_APROBACIONES_HABILIDADES_TBL_HABILIDADES_X_USUARIO_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:20:47 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<referredTableLongName>TBL_HABILIDADES_X_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E859DD2-0E98-14DE-7787-CEF800F6554C</referredTableID>
+<keyObject>71A43196-AECB-3FC3-3A05-3E669CB94B72</keyObject>
+<referredKeyID>71A43196-AECB-3FC3-3A05-3E669CB94B72</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_HABILIDAD,CODIGO_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

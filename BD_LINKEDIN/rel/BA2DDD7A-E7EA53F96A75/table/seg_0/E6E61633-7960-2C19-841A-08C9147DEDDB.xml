@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6E61633-7960-2C19-841A-08C9147DEDDB" name="TBL_ESTADOS_SOLICITUDES">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:25:45 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_SOLICITUD" id="47F49376-7E2C-26D1-339D-E1DAB001BCBB">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:26:20 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_SOLICITUD" id="60371390-0BFC-A392-48A7-09837E8852FA">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:26:20 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2778EA23-D7BC-B3E3-10CF-A750A9987FC4" name="TBL_ESTADOS_SOLICITUDES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:26:20 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47F49376-7E2C-26D1-339D-E1DAB001BCBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

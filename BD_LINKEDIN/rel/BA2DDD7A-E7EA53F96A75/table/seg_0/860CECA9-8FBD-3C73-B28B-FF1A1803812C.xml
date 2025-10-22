@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="860CECA9-8FBD-3C73-B28B-FF1A1803812C" name="TBL_HABILIDADES">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:11:58 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HABILIDAD" id="78D5D00F-4A21-6F9A-FB2E-0E74ED8D55E3">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:13:04 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_HABILIDAD" id="206517A2-DC6C-D98C-4332-317C9F9117A8">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:13:04 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="00C37550-FEB6-258A-6531-498FB5917CA2">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:13:04 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0A14B4D-8042-E73E-57C5-2AA65D549E8D" name="TBL_HABILIDADES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:13:12 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78D5D00F-4A21-6F9A-FB2E-0E74ED8D55E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

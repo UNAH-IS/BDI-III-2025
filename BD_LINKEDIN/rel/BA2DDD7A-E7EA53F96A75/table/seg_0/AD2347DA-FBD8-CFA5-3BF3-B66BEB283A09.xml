@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD2347DA-FBD8-CFA5-3BF3-B66BEB283A09" name="TBL_LIKES">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:44:16 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LIKE" id="C945AF41-76D3-77EE-FD7B-47C26D58EB0D">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:44:40 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_LIKE" id="1B07B60B-5D10-29E4-F3C2-710C9828D327">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:44:40 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PUBLICACION" id="85001A3F-E096-6A2E-2928-068A5B3587D4">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:44:56 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D546C18D-A62A-BEE4-1259-18091E8A0393" referredColumn="09BDA9D2-ADE7-C55F-CA06-1263017975E8"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="099E3553-5411-C6D0-E340-1450D95D0C85">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:45:10 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F041BD17-3415-294A-39FD-CC23007604F6" referredColumn="1D134055-1770-9DA5-8218-6E7B13B7CF2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94C269E8-B330-E981-C808-0D8C23767914" name="TBL_LIKES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:44:40 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C945AF41-76D3-77EE-FD7B-47C26D58EB0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="937A3DCA-C27A-7BD3-558F-D10BC347A6A9" name="TBL_LIKES_TBL_PUBLICACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:44:56 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85001A3F-E096-6A2E-2928-068A5B3587D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19D86480-E3AE-4E7E-E6DC-0886F325517F" name="TBL_LIKES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:45:10 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="099E3553-5411-C6D0-E340-1450D95D0C85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

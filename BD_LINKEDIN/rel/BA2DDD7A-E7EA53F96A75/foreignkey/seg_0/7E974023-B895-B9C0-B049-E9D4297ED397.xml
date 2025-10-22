@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E974023-B895-B9C0-B049-E9D4297ED397" containerWithKeyObject="1ADEAB4C-AA7A-C68D-FD78-E2A0A4828D0C" localFKIndex="345A88BA-3B71-D62D-8E66-3A372EA073C0" name="TBL_USUARIOS_X_GRUPOS_TBL_GRUPOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:54:31 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<referredTableLongName>TBL_GRUPOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F67A2158-C648-6859-CCF8-9B515BDE8936</referredTableID>
+<keyObject>DAC2CB73-9EBF-1380-5657-17AA577E0AA5</keyObject>
+<referredKeyID>DAC2CB73-9EBF-1380-5657-17AA577E0AA5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_GRUPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

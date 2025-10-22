@@ -72,6 +72,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_ESTADO_SOLICITUD" id="2079A921-4FAB-73CE-B974-88132B5BEFDF">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:26:54 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CE53E1E-1911-0039-9680-E3F8E450D7F4" referredColumn="47F49376-7E2C-26D1-339D-E1DAB001BCBB"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4D915AC5-C19F-F555-7C40-641E85DEE241" name="TBL_EMPRESAS_X_USUARIOS_PK">
@@ -104,6 +118,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="90371708-86A9-49B0-27BC-1634288BB5EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6AD86D6-2442-D68D-626F-FC84A6C729A2" name="TBL_EMPRESAS_X_USUARIOS_TBL_ESTADOS_SOLICITUDES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:26:54 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2079A921-4FAB-73CE-B974-88132B5BEFDF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

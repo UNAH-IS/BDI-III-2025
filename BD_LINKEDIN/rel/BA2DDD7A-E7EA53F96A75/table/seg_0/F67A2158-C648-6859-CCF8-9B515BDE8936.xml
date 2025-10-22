@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F67A2158-C648-6859-CCF8-9B515BDE8936" name="TBL_GRUPOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:52:51 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GRUPO" id="683118E7-B5F5-1BBC-98C4-142C3A60BDCB">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:53:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GRUPO" id="E078009E-F636-66D3-E8D8-2DDBB620C355">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:53:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="EA975791-E2CD-E913-2CFC-C1C526D067BB">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:53:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="E9E73E2F-C25E-5FF1-AF9E-07929D3A98F2">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:53:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGOTIPO" id="FC750EE5-92BA-8707-288E-B61E6DF608A9">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:53:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAC2CB73-9EBF-1380-5657-17AA577E0AA5" name="TBL_GRUPOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:53:28 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="683118E7-B5F5-1BBC-98C4-142C3A60BDCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

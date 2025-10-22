@@ -90,6 +90,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_USUARIO_ADMINISTRADOR" id="C1770B10-A7F2-1625-5833-AA44A97C1B18">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:23:33 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30B38557-CC90-8D8D-E04A-3BABD483A126" referredColumn="1D134055-1770-9DA5-8218-6E7B13B7CF2D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0040E528-1A8F-BD88-5C6E-4E05026FF8EB" name="TBL_EMPRESAS_PK">
@@ -101,6 +115,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="23220F52-959A-8D95-D34D-05245473A714"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99A031A9-1907-94F7-FFE1-BC81CE1B9379" name="TBL_EMPRESAS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-10-22 00:23:33 UTC</createdTime>
+<ownerDesignName>BD_LINKEDIN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1770B10-A7F2-1625-5833-AA44A97C1B18"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
